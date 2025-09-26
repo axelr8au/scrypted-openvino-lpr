@@ -7,7 +7,7 @@
 
   "detector": {
     "format": "openvino-ir",
-    "labels": ["vehicle", "license-plate"],
+    "labels": "detector/labels.txt",
     "input_size": [672, 384],
     "path_xml": "detector/vehicle-license-plate-detection-barrier-0106.xml",
     "path_bin":  "detector/vehicle-license-plate-detection-barrier-0106.bin",
