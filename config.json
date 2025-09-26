@@ -10,7 +10,7 @@
     "labels": ["vehicle", "license-plate"],
     "input_size": [672, 384],
     "path_xml": "detector/vehicle-license-plate-detection-barrier-0106.xml",
-    "path_bin": "detector/vehicle-license-plate-detection-barrier-0106.bin",
+    "path_bin":  "detector/vehicle-license-plate-detection-barrier-0106.bin",
     "class_for_roi": "license-plate",
     "confidence_threshold": 0.45,
     "nms_threshold": 0.45
@@ -18,8 +18,8 @@
 
   "recognizer": {
     "format": "openvino-ir",
-    "path_xml": "recognizer/license-plate-recognition-barrier-0001.xml",
-    "path_bin": "recognizer/license-plate-recognition-barrier-0001.bin",
+    "path_xml": "recognizer/license-plate-recognition-barrier-0007.xml",
+    "path_bin":  "recognizer/license-plate-recognition-barrier-0007.bin",
     "alphabet": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ- ",
     "max_seq_len": 10
   },
